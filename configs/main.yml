@@ -1,0 +1,15 @@
+db_file: "bot.db"
+
+bot_url: "https://t.me/go_pocketapi_bot"
+
+messages:
+  responses:
+    start: "Привет! Перейди по ссылке %s и разреши доступ."
+    already_authorized: "Ты уже авторизован. Скидывай ссылку, а я ее добавлю."
+    saved_successfully: "Ссылка успешно сохранена!"
+    unknown_command: "Я не знаю такой команды."
+  errors:
+    unknown: "Произошла неизвестная ошибка."
+    invalid_url: "Некорректая ссылка."
+    unauthorized: "Ты не авторизирован! Используй комманду start."
+    unable_to_save: "Не удалось добавить ссылку. Попробуй еще раз позднее."
